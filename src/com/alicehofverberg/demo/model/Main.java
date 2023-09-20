@@ -2,16 +2,13 @@ package com.alicehofverberg.demo.model;
 
 public class Main {
 
-    public static int doubleMyAge (int age){
-
-        return age*2;
-    }
     public static void main(String[] args) {
+
+        System.out.println("is this the first commit?");
 
         //instantiate object
         Student benny = new Student("Benny",15,true);
 
-        System.out.println(benny.name + benny.age);
 
 
         int sum = 0;
